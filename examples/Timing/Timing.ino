@@ -11,7 +11,7 @@
 // 0.0.3    2020-02-20 added timing measurement of setResolution
 
 #include <OneWire.h>
-#include <DallasTemperature.h>
+#include <Arduino-Temperature-Control-Library.h>
 
 #define ONE_WIRE_BUS 2
 

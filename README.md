@@ -33,7 +33,7 @@ or
 	#define REQUIRESALARMS
 
 
-at the top of DallasTemperature.h
+at the top of Arduino-Temperature-Control-Library.h
 
 Finally, please include OneWire from Paul Stoffregen in the library manager before you begin.
 

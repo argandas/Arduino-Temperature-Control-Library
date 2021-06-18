@@ -649,7 +649,7 @@ int16_t DallasTemperature::calculateTemperature(const uint8_t* deviceAddress,
 // returns temperature in 1/128 degrees C or DEVICE_DISCONNECTED_RAW if the
 // device's scratch pad cannot be read successfully.
 // the numeric value of DEVICE_DISCONNECTED_RAW is defined in
-// DallasTemperature.h. It is a large negative number outside the
+// Arduino-Temperature-Control-Library.h. It is a large negative number outside the
 // operating range of the device
 int16_t DallasTemperature::getTemp(const uint8_t* deviceAddress) {
 
@@ -663,7 +663,7 @@ int16_t DallasTemperature::getTemp(const uint8_t* deviceAddress) {
 // returns temperature in degrees C or DEVICE_DISCONNECTED_C if the
 // device's scratch pad cannot be read successfully.
 // the numeric value of DEVICE_DISCONNECTED_C is defined in
-// DallasTemperature.h. It is a large negative number outside the
+// Arduino-Temperature-Control-Library.h. It is a large negative number outside the
 // operating range of the device
 float DallasTemperature::getTempC(const uint8_t* deviceAddress) {
 	return rawToCelsius(getTemp(deviceAddress));
@@ -672,7 +672,7 @@ float DallasTemperature::getTempC(const uint8_t* deviceAddress) {
 // returns temperature in degrees F or DEVICE_DISCONNECTED_F if the
 // device's scratch pad cannot be read successfully.
 // the numeric value of DEVICE_DISCONNECTED_F is defined in
-// DallasTemperature.h. It is a large negative number outside the
+// Arduino-Temperature-Control-Library.h. It is a large negative number outside the
 // operating range of the device
 float DallasTemperature::getTempF(const uint8_t* deviceAddress) {
 	return rawToFahrenheit(getTemp(deviceAddress));
