@@ -1,3 +1,7 @@
+[![Arduino CI](https://github.com/milesburton/Arduino-Temperature-Control-Library/workflows/Arduino_CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![License: TBD](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/Arduino-Temperature-Control-Library/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/milesburton/serialeeprom)](https://github.com/milesburton/Arduino-Temperature-Control-Library/releases)
+
 # Arduino Library for Maxim Temperature Integrated Circuits
 
 ## Usage
